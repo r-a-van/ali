@@ -1,0 +1,216 @@
+body{
+    box-sizing: border-box;
+    
+}
+input{
+    width: 800px;}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0px 20px;
+    min-width: 1500px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar-udemy{
+    width: 91px;
+    height: 34px;
+}
+.navbar-menu{
+    position:relative;
+}
+.navbar-menu:hover .navbar-menu-cat{
+    display: block;
+}
+.navbar-menu-cat{
+    position: absolute;
+    display: none;
+    top: 18px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 650px;
+    z-index: 3;
+    background-color: white;
+}
+
+.navbar-menu-cat-second{
+    display: none;
+    position: absolute;
+    left: 200px;
+    background-color: white;
+    width: 200px;
+    border: 1px solid gray;
+
+}
+.navbar-menu-cat ul li:hover .navbar-menu-cat-second{
+    display: block;
+}
+.navbar-menu-cat li{
+    padding: 20px 20px;
+}
+
+
+.navbar-shoping-cart a img{
+    width: 24px;
+    height: 24px;
+}
+.navbar-login span{
+
+    border: 1px solid black;
+    padding: 10px 20px;
+
+}
+.navbar-login span:hover{
+
+    background-color: rgb(187, 181, 181);
+}
+.navbar-sign-up span{
+ 
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+
+}
+.navbar-sign-up span:hover{
+
+    background-color: rgb(50, 45, 45);
+}
+.navbar-language a img{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-language div{
+    padding: 10px;
+    border: 1px solid black;
+
+}
+.navbar-language div:hover{
+    background-color: rgb(186, 177, 177);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-size: 40px;
+}
+.image-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    min-width: 1500px;
+
+}
+
+.text{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    padding: 50px;
+}
+.text h1{
+    padding-bottom: 10px;
+}
+.text p{
+    padding-bottom: 40px;
+}
+
+
+
+
+.brands{
+    padding: 80px 0px;
+    background-color: rgb(243, 237, 237);
+    width: 100%;
+    min-width: 1300px;
+}
+.brands-images ul {
+    display: flex;
+    justify-content: center;
+}
+.brands-images ul li{
+    padding-right: 80px;
+
+}
+.brands-images ul li:last-child{
+    padding-right: 0px;
+
+}
+.brands h3{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+}
+
+
+
+
+
+
+.baner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto;
+    width: 1300px;
+    height: 200px;
+    background-color: aqua;
+}
+.baner p{
+    padding: 20px ;
+}
+.baner ul {
+    display: flex;
+}
+.baner ul li {
+    padding-right: 20px;
+
+}
+.baner ul li:last-child {
+    padding-right: 0px;
+
+}
+.baner ul li:first-child {
+    padding-left: 20px;
+
+}
+.baner ul li a{
+    color: rgb(102, 75, 75);
+}
+.baner ul li a:hover{
+    color:black;
+}
+.baner h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
